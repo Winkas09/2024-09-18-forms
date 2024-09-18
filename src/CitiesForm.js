@@ -68,7 +68,7 @@ const CitiesForm = ({ addCity }) => {
         type="text"
         value={touristAttractions}
         onChange={(e) => setTouristAttractions(e.target.value)}
-        placeholder="Tourist Attractions (comma separated)"
+        placeholder="Attractions, separated by commas"
       />
       <label>
         <input

@@ -12,7 +12,7 @@ button {
   width: 50%;
   box-sizing: border-box;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: wheat;
   border: 1px solid #ddd;
   border-radius: 8px;
   margin: 10px;
@@ -26,8 +26,13 @@ button {
 
 .city-item.full-width {
   width: 100%;
-  background-color: #007bff;
+  background-color: rgba(204, 126, 23, 0.603);
   color: white;
+}
+
+.city-item.full-width:hover {
+  background-color: #d36f51;
+  transform: scale(1.02);
 }
 
 .city-item h2 {
@@ -53,4 +58,11 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
