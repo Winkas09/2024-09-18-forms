@@ -13,7 +13,7 @@ const CitiesForm = ({ addCity }) => {
     const attractionsArray = touristAttractions
       .split(",")
       .map((attraction) => attraction.trim())
-      .filter((attraction) => attraction);
+      .filter((attraction) => attraction.length > 0);
 
     const newCity = {
       name,
