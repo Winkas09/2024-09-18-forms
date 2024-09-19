@@ -9,7 +9,7 @@ button {
 }
 
 .city-item {
-  width: 50%;
+  width: calc(50% - 20px);
   box-sizing: border-box;
   padding: 20px;
   background-color: wheat;
@@ -17,6 +17,7 @@ button {
   border-radius: 8px;
   margin: 10px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
 }
 
 .city-item:hover {
@@ -28,6 +29,7 @@ button {
   width: 100%;
   background-color: rgba(204, 126, 23, 0.603);
   color: white;
+  text-align: center;
 }
 
 .city-item.full-width:hover {
